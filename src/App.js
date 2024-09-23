@@ -1,4 +1,5 @@
 import styles from './App.module.scss';
+import { ReactComponent as Signature } from './images/index.svg';
 import Nav from './Nav';
 import SectionHero from './SectionHero';
 
@@ -41,6 +42,7 @@ export default function App() {
             their position in the market — providing long-term support, often
             through a blend of cash and equity.
           </p>
+          <br />
           <p>
             In recent years, I've helped build multiple businesses leading to
             over $55M in capital investment.
@@ -97,32 +99,40 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section>
+      <section className={styles.culturePara}>
         <div>
           <p>
             Culturally, I fit high-energy and fun management teams.
+            <br />
             <br />
             I compete in Hyrox races around the world, care deeply about being a
             present father and husband, and maintain a healthy balance between
             work, life and play.
             <br />
+            <br />
             Feel free to email me, schedule a call or connect on LinkedIn.
+            <br />
             <br />
             Let’s have some fun!
           </p>
-          <img
-            style={{ width: '100px' }}
-            src="https://gzhls.at/i/49/72/2624972-l0.jpg"
-            alt="signature"
-          />
+          <br />
+          <br />
+          <br />
+          <Signature />
         </div>
       </section>
       <footer>
         <ul>
-          <li>Jason Briscoe</li>
-          <li>Linkedin</li>
-          <li>read.cv</li>
-          <li>X</li>
+          <li className={styles.liJason}>Jason Briscoe</li>
+          <li className={styles.lilinkedin}>
+            <a href="https://www.linkedin.com/in/jsnbrsc/">Linkedin</a>
+          </li>
+          <li className={styles.licv}>
+            <a href="https://read.cv/jsnbrsc">read.cv</a>
+          </li>
+          <li className={styles.lix}>
+            <a href="https://x.com/jsnbrsc">X</a>
+          </li>
         </ul>
       </footer>
     </main>
