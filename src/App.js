@@ -31,7 +31,11 @@ export default function App() {
       </section>
       <section className={styles.video}>
         <div>
-          <iframe src="https://player.vimeo.com/video/1006144894?autoplay=1&loop=1&autopause=0&badge=0&controls=0&muted=1&playsinline=1&background=1" />
+          <iframe
+            title="services-video"
+            sandbox="allow-popups"
+            src="https://player.vimeo.com/video/1006144894?autoplay=1&loop=1&autopause=0&badge=0&controls=0&muted=1&playsinline=1&background=1"
+          />
         </div>
       </section>
 
@@ -110,7 +114,9 @@ export default function App() {
             work, life and play.
             <br />
             <br />
-            Feel free to email me, schedule a call or connect on LinkedIn.
+            Feel free to <a href="mailto:jb@jasonbriscoe.com">email me</a>,{' '}
+            <a href="https://calendly.com/">schedule a call</a> or connect on
+            <a href="https://read.cv/jsnbrsc"> LinkedIn</a>.
             <br />
             <br />
             Let’s have some fun!

@@ -9,11 +9,9 @@ export default function SectionHero() {
     <section>
       <div className={styles.h1Hero}>
         <h1>
-          Design
-          <br /> partner for
-          <br /> early stage <br />
-          tech and <br />
-          scale ups.
+          Design partner for
+          <br /> early stage tech
+          <br /> and scale ups.
         </h1>
       </div>
       <div className={styles.divHero}>
@@ -28,12 +26,14 @@ export default function SectionHero() {
           with founders and VC to brand, build and bring product ideas to life.
         </p>
         <br />
-        <a className={styles.paraHero3} href="mailto:jb@jasonbriscoe.com">
-          Email me
-        </a>
-        <a className={styles.paraHero4} href="https://calendly.com/">
-          Schedule a discovery call
-        </a>
+        <p className={styles.paraAHero}>
+          <a className={styles.paraHero3} href="mailto:jb@jasonbriscoe.com">
+            Email me
+          </a>
+          <a className={styles.paraHero4} href="https://calendly.com/">
+            Schedule a discovery call
+          </a>
+        </p>
       </div>
     </section>
   );
