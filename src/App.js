@@ -29,8 +29,8 @@ export default function App() {
           Launch. Exit.
         </h1>
       </section>
-      <section className={styles.video}>
-        <div>
+      <section>
+        <div className={styles.video}>
           <iframe
             title="services-video"
             sandbox="allow-popups"
@@ -38,7 +38,6 @@ export default function App() {
           />
         </div>
       </section>
-
       <section>
         <div className={styles.para}>
           <p>

@@ -68,19 +68,23 @@ img {
   max-width: 1000px;
 }
 
+iframe {
+  width: 600px;
+  height: 600px;
+  display: block;
+  border-style: none;
+  z-index: 10; /* Ensure iframe is above other content */
+}
+
 .video {
   max-width: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-}
-
-iframe {
-  width: 500px;
-  height: 500px;
-  display: block;
-  border-style: none;
+  z-index: 10;
+  position: relative;
+  padding: 20px;
 }
 
 .para {
