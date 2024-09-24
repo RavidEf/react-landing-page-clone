@@ -129,13 +129,13 @@ export default function App() {
       <footer>
         <ul>
           <li className={styles.liJason}>Jason Briscoe</li>
-          <li className={styles.lilinkedin}>
+          <li>
             <a href="https://www.linkedin.com/in/jsnbrsc/">Linkedin</a>
           </li>
-          <li className={styles.licv}>
+          <li>
             <a href="https://read.cv/jsnbrsc">read.cv</a>
           </li>
-          <li className={styles.lix}>
+          <li>
             <a href="https://x.com/jsnbrsc">X</a>
           </li>
         </ul>
